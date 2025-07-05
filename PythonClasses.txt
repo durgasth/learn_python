@@ -1,0 +1,10 @@
+2025/7/5
+Duration(3:00)
+
+1.Python Installation
+2.Git Installattion
+3.GitHub Account Creation
+4.Git and GitHub SSH connection
+5.Hello World
+6.Variables
+Assignment : ( Operatior usage with String output)
