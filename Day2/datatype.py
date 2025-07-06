@@ -1,9 +1,13 @@
 number = 3
 weight = 50.1
+
+#test
 text = "Durga"
+print(type(text))
+print(text)
+
 
 print(type(number))
-print(type(text))
 print(type(weight))
 
 fruits = ["apple", "banana", "orange"]
@@ -37,3 +41,4 @@ print(type(student))
 set = {1,2,3}
 print(set)
 print(type(set))
+
