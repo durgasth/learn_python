@@ -10,13 +10,14 @@ print(3 // 2)  # Floor division operator(//)
 
 a = 2
 b = 3
+#Addition
 print("The addition of a and b :", a+b)
+print("The value of a is",a)
+print("The value of b is",b)
 
-a = 2
-b = 3
+#Subs
 print("The subtraction of a and b :", a - b)
 
-a = 2
-b = 3
+#Multiplication
 print("The multiplication of a and b :" , a*b)
 
