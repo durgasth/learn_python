@@ -16,7 +16,7 @@ print(person)
 
 # for sequence 
 # List
-list_data = [1, 2, 3, 4, 5]
+list_data = [1, 2, 3, 4, 5]    
 print("Datatype: list\t\tData:", list_data)
 
 # Tuple
@@ -26,6 +26,10 @@ print("Datatype: tuple\t\tData:", tuple_data)
 # String
 str_data = "12345"
 print("Datatype: str\t\tData:", str_data)
+
+# Range
+range_data = range(1, 6)
+print("Datatype: range\t\tData:", list(range_data))
 
 # for mapping 
 
