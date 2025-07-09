@@ -2,24 +2,39 @@
 # Write a program that takes an integer as input and checks whether it is even or odd.
 # Sample Input: 7
 # Sample Output: 7 is odd
-
+number = int(input("Enter an integer: "))
+if number % 2 == 0:
+    print(number, "is even")
+else:
+    print(number, "is odd")
 
 # 2. Positive, Negative, or Zero
 # Ask the user to enter a number and print whether it is positive, negative, or zero.
 # Sample Input: -5
 # Sample Output: The number is negative
+number = int(input("Enter a number: "))
+if number > 0:
+    print("The number is positive")
+elif number < 0:
+    print("The number is negative")
+else:
+    print("The number is zero")
+    
 
-
-# 3. Voting Eligibility
-# Ask the user's age and check if they are eligible to vote (age ≥ 18).
-# Sample Input: 16
-# Sample Output: You are not eligible to vote.
 
 # 4. Greatest of Two Numbers
 # Take two numbers from the user and print which one is greater. If both are equal, print “Both are equal.”
 # Sample Input: 10, 20
 # Sample Output: 20 is greater
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
+if a > b:
+    print(a, "is greater")
+elif b > a:
+    print(b, "is greater")
+else:
+    print("Both are equal")
 
 # 5. Check for Leap Year
 # Take a year as input and check if it's a leap year.
@@ -31,6 +46,12 @@
 # not divisible by 100 unless also divisible by 400.
 # Sample Input: 2020
 # Sample Output: 2020 is a leap year
+year = int(input("Enter a year: "))
+
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print(year, "is a leap year")
+else:
+    print(year, "is not a leap year")
 
 #Day 3 assignment 
 #1.Grade Calculator

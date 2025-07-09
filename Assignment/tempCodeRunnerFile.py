@@ -1,6 +1,8 @@
-age = 16
-
-if age >= 18:
-    print("You are eligible to vote")
+number = int(input("Enter a number: "))
+if number > 0:
+    print("The number is positive")
+elif number < 0:
+    print("The number is negative")
 else:
-    print("You are not eligible to vote")
+    print("The number is zero")
+    
