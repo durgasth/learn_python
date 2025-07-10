@@ -1,5 +1,5 @@
+#DAY 1 
 #how to print hello world ?
-
 print("hello world") 
 
 # Arithematic Operations
@@ -39,3 +39,7 @@ print("The value of b is:", b)
 print("The floor division of a and b : ", a // b)
 print("The value of a is:", a)
 print("The value of b:", b)
+
+#DAY 2
+
+
