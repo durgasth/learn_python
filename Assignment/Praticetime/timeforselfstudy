@@ -29,3 +29,13 @@ print ("The value of b:", b)
 print ("The exponential of a and b:",a**b)
 print("The value of a is:",a)
 print("The value of b:", b)
+
+#modulus(%)
+print ("The modulus of a and b : ", a % b )
+print("The value of a is:", a)
+print("The value of b is:", b)
+
+# Floor division operator(//)
+print("The floor division of a and b : ", a // b)
+print("The value of a is:", a)
+print("The value of b:", b)
