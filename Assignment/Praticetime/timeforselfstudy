@@ -6,9 +6,9 @@ print("hello world")
 #addition 
 a = 99
 b = 69
-print ("The addition of a and b:", a+b)
-print ("The value of a is :" ,a)
-print ("The value of b is :",b)
+print (f"The addition of {a} and {b}:", a+b)
+# print ("The value of a is :" ,a)
+# print ("The value of b is :",b)
 
 #subtraction
 print ("The subtraction of a and b:", a-b)
