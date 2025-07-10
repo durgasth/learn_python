@@ -14,3 +14,18 @@ print ("The value of b is :",b)
 print ("The subtraction of a and b:", a-b)
 print("The value of a is :", a)
 print("The value of b is:", b)
+
+#multiplication
+print("The multiplication of a and b:", a*b)
+print("The value of a is:", a)
+print("The value of b is :", b)
+
+#division 
+print("The division of a and b:", a/b)
+print("The value of a is:", a)
+print ("The value of b:", b)
+
+#exponential(**)
+print ("The exponential of a and b:",a**b)
+print("The value of a is:",a)
+print("The value of b:", b)
