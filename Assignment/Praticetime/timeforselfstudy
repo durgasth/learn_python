@@ -1,0 +1,12 @@
+#how to print hello world ?
+
+print("hello world") 
+
+# Arithematic Operations
+#addition 
+a = 99
+b = 69
+print ("The addition of a and b:", a+b)
+print ("The value of a is :" ,a)
+print ("The value of b is :",b)
+
