@@ -13,7 +13,3 @@ print(f"The exponantial of{a} and {b} :", a**b)
 print(f"The modulus of{a} and {b} :", a%b)
 
 print(f"The floor division of{a} and {b} :", a//b)
-
-
-
-
