@@ -52,7 +52,52 @@ print("Datatype: range\t\tData:", list(range_data))
 dict_data = {1: "one", 2: "two", 3: "three"}
 print("Datatype: dict\t\tData:", dict_data)
 
+#day3
+# Voting Eligibility
+age = 16
 
+if age >= 18:
+    print("You are eligible to vote")
+else:
+    print("You are not eligible to vote")
+    
+   # 4. Greatest of Two Numbers
+# Take two numbers from the user and print which one is greater. If both are equal, print “Both are equal.”
+# Sample Input: 10, 20
+# Sample Output: 20 is greater
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
+if a > b:
+    print(a, "is greater")
+elif b > a:
+    print(b, "is greater")
+else:
+    print("Both are equal")
 
+# 5. Check for Leap Year
+# Take a year as input and check if it's a leap year.
+
+# A year is leap if:
+
+# divisible by 4 and
+
+# not divisible by 100 unless also divisible by 400.
+# Sample Input: 2020
+# Sample Output: 2020 is a leap year
+year = int(input("Enter a year: "))
+
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print(year, "is a leap year")
+else:
+    print(year, "is not a leap year")
+    
+    # 2. Positive, Negative, or Zero
+number = int(input("Enter a number: "))
+if number > 0:
+    print("The number is positive")
+elif number < 0:
+    print("The number is negative")
+else:
+    print("The number is zero")
 
