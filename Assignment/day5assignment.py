@@ -41,5 +41,5 @@ print(f"The sum of numbers from 1 to {n} is: {total}")
 word = input("Enter a word: ")
 
 # Loop through each character and print it
-for char in word:
-    print(char)
+for i in word: #[D u r g a]
+    print(i)
